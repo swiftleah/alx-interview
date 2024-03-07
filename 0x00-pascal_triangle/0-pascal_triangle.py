@@ -2,7 +2,7 @@
 """ function pascal_triangle """
 
 def pascal_triangle(n):
-    """ Generates Pascal's triangle up to the nth row  with ints """
+    """ function generates pascals triangle using ints to nth row """
     if n <= 0:
         return []
 
@@ -12,8 +12,8 @@ def pascal_triangle(n):
         prev_row = triangle[-1]
         next_row = [1]
 
-        for j in range(1, i):
-            next_row.append(prev_row[j - 1] + prev_row[j])
+        for k in range(1, i):
+            next_row.append(prev_row[k - 1] + prev_row[k])
         next_row.append(1)
 
         triangle.append(next_row)

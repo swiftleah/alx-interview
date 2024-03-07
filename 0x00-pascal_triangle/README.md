@@ -1,1 +1,1 @@
-ALX task - Pascals triangle
+ALX task - pascals triangle
