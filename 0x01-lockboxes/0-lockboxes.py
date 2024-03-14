@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ determines if all boxes can be opened """
 
+
 def canUnlockAll(boxes):
     """ start of code """
     visited = set()
@@ -16,6 +17,7 @@ def canUnlockAll(boxes):
                 visited.add(key)
 
     return len(visited) == len(boxes)
+
 
 if __name__ == "__main__":
     boxes1 = [[1], [2], [3], [4], []]
